@@ -20,4 +20,4 @@ wallet = "~/.config/solana/id.json"
 [scripts]
 # We need '--test-reporter=spec' to get a more readable output on GitHub CI
 # this has no effect on local runs
-test = "npx tsx create-codama-client.ts; npx tsx --test --test-reporter=spec tests/*.ts"
+test = "npx tsx create-codama-client.ts; npx tsx --test --test-reporter=tap tests/*.ts | npx tsx confetti-reporter.ts"

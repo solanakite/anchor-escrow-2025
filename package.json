@@ -17,6 +17,7 @@
     "codama": "^1.3.0",
     "prettier": "^3.4.2",
     "solana-kite": "^1.2.5",
+    "terminal-image": "^3.1.1",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
